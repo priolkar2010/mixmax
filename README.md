@@ -11,12 +11,12 @@ process.env.PORT
 
 Running locally
 
-Install using npm install
-Run using npm start
+Install using `npm install`
+Run using `npm start`
 To simulate locally how Mixmax calls the typeahead URL (to return a JSON list of typeahead results), run:
 
-curl https://localhost:9443/typeahead?text=94102
+`curl https://localhost:9443/typeahead?text=94102`
 To simulate locally how Mixmax calls the resolver URL (to return HTML that goes into the email), run:
 
-curl https://localhost:9443/resolver?text=94102
+`curl https://localhost:9443/resolver?text=94102`
 
