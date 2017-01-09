@@ -1,15 +1,16 @@
-# Yelp Integration for the zipcode
-Please note that recommendation starts closest to the Zipcode and movers further till 10000 meters
+# Yelp Integration for InstaCoffee via Mixmax :)
 
-The keys are as of now provided, please export following 
+Please note that recommendation starts within the Zipcode and movers further out until 10,000 meters
 
-process.env.oauth_consumer_key
-process.env.oauth_token
-process.env.consumerSecret
-process.env.tokenSecret 
-process.env.PORT
+The keys are provided as of now, with your own keys please export the following:
 
-Running locally
+`oauth_consumer_key`,
+`oauth_token`,
+`consumerSecret`,
+`tokenSecret`,
+and `PORT`
+
+To run it locally:
 
 Install using `npm install`
 
